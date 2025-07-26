@@ -48,7 +48,7 @@ const EmergencyScreen = () => {
   ]
 
   const handleEmergencyClick = (service) => {
-    navigate('/emergency-booking', { state: { service } })
+    navigate('/call', { state: { service } })
   }
 
   return (
